@@ -1,0 +1,67 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+    <ion-back-button defaultHref="/home" text="Accueil"></ion-back-button>
+  </ion-buttons>
+    <ion-title>Profil</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+  <div class="header">
+  <h2>John Doe</h2>
+
+  <div class="space-between">
+    <div class="followings">
+      <ion-badge color="primary" mode="ios">45</ion-badge>
+    <p>Abonnés</p>
+  </div>
+
+    <div class="followings">
+      <ion-badge color="primary" mode="ios">18</ion-badge>
+    <p>Abonnements</p>
+  </div>
+  </div>
+</div>
+<div class="flex">
+<div class="border-blue">
+<div class="border-white">
+<div class="img-profil"> 
+
+<img src="../../assets/icon/profil.jpg">
+</div>
+</div>
+</div>
+</div>
+
+<ion-card>
+<ion-item lines="none">
+  <ion-avatar>
+    <img src="../../assets/icon/profil.jpg">
+  </ion-avatar>
+  <ion-label class="name-time">
+    <h2> <b>John Doe</b></h2>
+    <p>Il y a 48 minutes</p>
+  </ion-label>
+</ion-item>
+  <ion-item lines="none" class="message">
+  <ion-label text-wrap>Merci <span>@busling</span> ! Cette application correspond totalement à mes besoins et vous guide 24h/24 7j/7 lors de tous vos déplaçements. </ion-label>
+</ion-item>
+<img class="message-img" src="../../assets/icon/Busling.jpg">
+<ion-button size="small" fill="clear">
+  <ion-icon class="blue-message" slot="start" name="chatbox-outline"></ion-icon>
+<div class="blue-message">2</div>
+</ion-button>
+
+<ion-button size="small" fill="clear">
+  <ion-icon class="blue-message" slot="start" name="heart-outline"></ion-icon>
+<div class="blue-message">35</div>
+</ion-button>
+
+<ion-button size="small" fill="clear">
+  <ion-icon class="blue-message" slot="start" name="share-outline"></ion-icon>
+<div class="blue-message">73</div>
+</ion-button>
+</ion-card>
+</ion-content>
